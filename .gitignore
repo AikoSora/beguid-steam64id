@@ -1,0 +1,5 @@
+env
+*.log
+*.lock
+.DS_Store
+*.json

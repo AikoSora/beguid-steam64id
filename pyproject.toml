@@ -1,0 +1,18 @@
+[project]
+name = "beguid-steam64id"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aiko Sora",email = "altairteam@bk.ru"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "asyncpg (>=0.30.0,<0.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
